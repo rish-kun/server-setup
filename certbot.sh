@@ -18,7 +18,7 @@ sudo certbot -d $domains
 # ufw
 read -p  "Do you want to enable ufw (y/n)" input
 
-if [ "$input" == "yes" ]; then
+if [ "$input" = "yes" ]; then
   read -p "Which ports do you want to enable ufw for" ports
   ufw allow $ports
 else 
