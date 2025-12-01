@@ -28,6 +28,12 @@ sudo apt install neovim
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
+
+
+sudo apt install nodejs npm -y
+curl -fsSL https://bun.com/install | bash
+
 #omz
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 
